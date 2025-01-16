@@ -1,0 +1,119 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styles */
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading */
+.container h1 {
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Form styles */
+form {
+  margin: 0;
+}
+
+form p {
+  margin-bottom: 1rem;
+}
+
+form label {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 1rem);
+  max-width: 200px;
+}
+
+/* Button styles */
+button {
+  padding: 0.7rem 1.5rem;
+  background: #556270;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #37474f;
+}
+
+/* Results section */
+#results {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #37474f;
+}
+
+#guide {
+  margin-top: 1rem;
+  color: #d84315;
+  font-size: 1rem;
+}
+
+/* Weight Guide */
+#weight-guide {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 10px;
+}
+
+#weight-guide h3 {
+  margin-bottom: 1rem;
+  color: #1e88e5;
+}
+
+#weight-guide p {
+  margin: 0.5rem 0;
+  color: #424242;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  form input {
+    width: 100%;
+  }
+}
